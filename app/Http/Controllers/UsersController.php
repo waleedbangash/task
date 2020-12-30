@@ -62,7 +62,7 @@ class UsersController extends Controller
         }
         else
         {
-            echo "welcome";
+
             return redirect('users/login')->with('msg','pleas give the valid address');
         }
 }
